@@ -96,10 +96,7 @@ a:link {
 .card-1,
 .card-2,
 .card-3 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 300px;
+  width: 260px;
   height: auto;
 }
 
@@ -114,15 +111,15 @@ a:link {
 
 .img {
   margin: 5px;
-  width: 300px;
-  height: 200px;
+  width: 200px;
+  height: 130px;
   object-fit: cover;
   border: black solid 1px;
   box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.4);
 }
 
 .img-about {
-  width: 250px;
+  width: 200px;
   height: 500px;
   object-fit: cover;
   border: black solid 1px;
@@ -132,6 +129,35 @@ a:link {
 .copyright {
   text-align: center;
   margin: 10px;
+}
+
+@media (min-width: 365px) {
+  .card-1,
+  .card-2,
+  .card-3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 300px;
+    height: auto;
+  }
+
+  .img {
+    margin: 5px;
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border: black solid 1px;
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.4);
+  }
+
+  .img-about {
+    width: 300px;
+    height: 500px;
+    object-fit: cover;
+    border: black solid 1px;
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.4);
+  }
 }
 
 @media (min-width: 1060px) {
